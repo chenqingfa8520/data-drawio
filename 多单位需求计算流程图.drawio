@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T13:08:57.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" etag="cfXL0hFlgkeMj8e6TvW6" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T13:29:24.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15" etag="yceAzSK242satzgKJNM-" version="24.4.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="2" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="analyse project&#xa; documentation" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="3" value="获取冻结/调拨/采购/单位信息" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4" value="create&#xa;material&#xa;specification" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
@@ -246,6 +246,52 @@
         </mxCell>
         <mxCell id="55" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="235" y="1624" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-60" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1409.5" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-61" value="获取需求关联数据" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="150" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-63" value="check for&#xa;obscurities" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="270" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ic0IF7MyFX4vwEhalqbt-78" target="Ic0IF7MyFX4vwEhalqbt-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1469.5" y="572" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-77" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ic0IF7MyFX4vwEhalqbt-76">
+          <mxGeometry x="-0.0469" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-65" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="1" source="Ic0IF7MyFX4vwEhalqbt-60" target="Ic0IF7MyFX4vwEhalqbt-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-66" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="1" source="Ic0IF7MyFX4vwEhalqbt-61" target="Ic0IF7MyFX4vwEhalqbt-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-73" value="采购数/调拨数/冻结数/件号单位信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1659.5" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-74" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ic0IF7MyFX4vwEhalqbt-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1549.5" y="190" as="sourcePoint" />
+            <mxPoint x="1619.7106781186549" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ic0IF7MyFX4vwEhalqbt-75" target="Ic0IF7MyFX4vwEhalqbt-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-75" value="最小单位需求发料数量&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1429.5" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-78" value="需求发料单位等于需求处理计算单位" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1429.5" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ic0IF7MyFX4vwEhalqbt-79" value="最小发料数量-" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="860" width="159" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
