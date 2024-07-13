@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T07:14:08.127Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JojNYOwxEz6WIsY3Hzlq" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T07:16:30.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Kll3Dme0uHa0M9EUfEa_" version="24.6.4" type="github">
   <diagram name="第 1 页" id="eImJZ5AT_Ae7sKoUB0Qp">
     <mxGraphModel dx="2396" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
         </mxCell>
         <mxCell id="WSm0AJE8l7CxgviikVMq-12" value="用户页面发起采购申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WSm0AJE8l7CxgviikVMq-11">
           <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="27" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WSm0AJE8l7CxgviikVMq-2" value="车间计划人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -133,7 +133,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WSm0AJE8l7CxgviikVMq-37" value="波音系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WSm0AJE8l7CxgviikVMq-37" value="采购波音接收接口" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="130" width="440" height="1100" as="geometry">
             <mxRectangle x="650" y="130" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
