@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-07-13T06:07:52.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="khHXDn1Bp2QMFxxSofez" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-13T06:21:18.995Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xEaJE_amCpcVSoTJ_lat" version="24.6.4" type="github">
   <diagram name="第 1 页" id="eImJZ5AT_Ae7sKoUB0Qp">
-    <mxGraphModel>
+    <mxGraphModel dx="2474" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WSm0AJE8l7CxgviikVMq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WSm0AJE8l7CxgviikVMq-2" target="WSm0AJE8l7CxgviikVMq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-12" value="用户页面发起采购申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WSm0AJE8l7CxgviikVMq-11">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-2" value="车间计划人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-3" value="航材计划" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="260" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-10" value="计划发起采购申（备件、缺件、库补）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WSm0AJE8l7CxgviikVMq-3">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-5" value="市场协议" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="350" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-17" value="寄售协议信息接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WSm0AJE8l7CxgviikVMq-5">
+          <mxGeometry x="115" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-6" value="航材采购" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="130" width="350" height="580" as="geometry">
+            <mxRectangle x="650" y="130" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WSm0AJE8l7CxgviikVMq-10" target="WSm0AJE8l7CxgviikVMq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSm0AJE8l7CxgviikVMq-20" value="提交请求市场协议接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WSm0AJE8l7CxgviikVMq-19">
+          <mxGeometry x="-0.1866" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
